@@ -1,0 +1,140 @@
+.header-section{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.874) 0%, rgba(31, 31, 31, 0.551) 87%);
+}
+
+.logo-section{
+    margin: 10px 30px 10px 30px;
+    padding: 0;
+}
+
+body{
+    background-image: url('Asset/car-bg.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.btn-primary{
+    color: white;
+    border: 1px solid rgb(3, 145, 116);
+    background-color: rgb(1, 105, 84);
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: rgb(0, 244, 195);
+    border-color: rgb(1, 105, 84);
+}
+
+.left-sidebar{
+    background-color: rgba(0, 0, 0, 0.319);
+    padding: 20px;
+}
+
+.glass-leftbar{
+    background-color: linear-gradient rgba(255, 255, 255, 0.756), rgba(255, 255, 255, 0.736);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    height: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.text-container-1{
+    padding: 20px;
+    color: white;
+}
+
+.main-content{
+    background-color: rgba(0, 0, 0, 0.319);
+    padding: 20px;
+}
+
+.glass-main-content{
+    background-color: linear-gradient rgba(255, 255, 255, 0.756), rgba(255, 255, 255, 0.736);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    height: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+    max-height: 95vh;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.table-dummy{
+    width: 100%;
+    line-height: 2;
+    text-align: justify;
+}
+
+.table-head{
+    position: sticky;
+    top: 0;
+    background-color: rgb(24, 27, 28);
+    color: white;
+    z-index: 1;
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: #ababab;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #dedede; 
+}
+
+
+tbody tr:hover {
+    background-color: #00ffd5; 
+    cursor: pointer;
+}
+
+
+
+.footer-social ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-social li {
+    margin: 0 10px;
+}
+
+.footer-social li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+.footer-social li a:hover {
+    color: #ccc;
+}
+
+.footer{
+    padding: 20px;;
+    color: #777;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.515) 0%, rgba(0,0,0,1) 100%);
+}
+.footer-copyright {
+    font-size: 1.5vw;
+    color: #777;
+    text-align: center;
+}
+

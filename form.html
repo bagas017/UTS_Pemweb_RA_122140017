@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form F1 Academy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="style2.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar sticky-top h-100 header-section">
+            <div class="container-fluid d-flex justify-content-center justify-content-md-start">
+                <a href="https://www.mercedesamgf1.com/" class="logo-section">
+                    <img src="Asset/Logo.png" alt="Logo" width="200" class="d-inline-block align-text-top img-fluid">
+                </a>
+            </div>
+        </nav>      
+    </header>
+
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-12 order-2 col-md-3 order-md-1 col-lg-4  left-sidebar" style="height: 100vh;">
+                <div class="glass-leftbar">
+                    <div class="text-container-1">
+                        <div class="text-justify">
+                            <h3>Introducing F1 Academy: Your Gateway to the World of Formula 1</h3>
+                            <p>Are you ready to embark on an exhilarating journey in the fast-paced realm of Formula 1 racing? F1 Academy is your premier destination for discovering and nurturing the next generation of racing talent. This exclusive program is meticulously designed to uncover new faces in the world of F1 and provide aspiring drivers with the skills and opportunities they need to succeed.</p>
+                            <br>
+                            <p>Our expert trainers will share their wealth of knowledge, providing you with insights that only seasoned professionals can offer. From mastering the art of high-speed driving to understanding race strategy and vehicle dynamics.</p>    
+                            <br>
+                            <p>One of the most exciting aspects of the F1 Academy is the chance to compete in real professional races. Imagine racing at the iconic Le Mans 24-hour circuit, a legendary venue that has tested the limits of endurance and skill for decades. This is not just a dream—it's an opportunity to showcase your abilities in front of industry leaders, sponsors, and talent scouts.</p>
+                            <a href="index.html" class="btn btn-primary">&larr; Back to Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 order-1 col-md-9 order-md-2 col-lg-6 main-content" id="">
+                <div class="glass-main-content">
+                    <form method="get" action="data.html" class="row g-3 needs-validation form-container" novalidate>
+                        <div class="col-md-6">
+                          <label for="validationCustomFirstname" class="form-label">First name</label>
+                          <input type="text" class="form-control" id="validationCustomFirstname" placeholder="Bagas" name="first-nama" required>
+                          <div class="valid-feedback">Looks good!</div>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="validationCustomLastname" class="form-label">Last name</label>
+                          <input type="text" class="form-control" id="validationCustomLastname" placeholder="Andreantoo" name="last-name" required>
+                          <div class="valid-feedback">Looks good!</div>
+                        </div>
+                        <div class="col-md-2">
+                          <label for="validationCustomAge" class="form-label">Age</label>
+                          <input type="number" class="form-control" id="validationCustomAge" min="1" max="120" name="age" required>
+                        </div>
+                        <div class="col-md-4">
+                          <label for="validationCustomDOB" class="form-label">Date of Birth</label>
+                          <input type="date" class="form-control" id="validationCustomDOB" name="dob" required>
+                          <div class="valid-feedback">Looks good!</div>
+                        </div>
+                        <div class="col-md-4">
+                          <label for="validationCustomState" class="form-label">State</label>
+                          <select class="form-select" id="validationCustomState" name="state" required>
+                            <option selected disabled value="">Choose...</option>
+                            <option value="USA">Amerika Serikat</option>
+                            <option value="CAN">Kanada</option>
+                            <option value="GBR">Inggris</option>
+                            <option value="DEU">Jerman</option>
+                            <option value="FRA">Prancis</option>
+                            <option value="ITA">Italia</option>
+                            <option value="ESP">Spanyol</option>
+                            <option value="JPN">Jepang</option>
+                            <option value="AUS">Australia</option>
+                            <option value="INA">Indonesia</option>
+                            <option value="CHN">Cina</option>
+                            <option value="BRA">Brasil</option>
+                            <option value="MEX">Meksiko</option>
+                          </select>
+                          <div class="invalid-feedback">Please select a valid state.</div>
+                        </div>
+                        <div class="col-md-4">
+                          <label for="validationCustomEmail" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="validationCustomEmail" name="email" placeholder="sXjgK@example.com" name="email" required>
+                        </div>
+                        <div class="col-md-4">
+                          <label for="validationCustomPassword" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="validationCustomPassword" name="password" placeholder="Password" name="password" required>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">Agree to terms and conditions</label>
+                            <div class="invalid-feedback">You must agree before submitting.</div>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <button class="btn btn-primary" type="submit">Submit form</button>
+                        </div>
+                    </form> 
+                    
+                    
+                </div>
+            </div>
+
+            <div class="col-12 order-3 col-md-12 order-md-3 col-lg-2 right-sidebar" id="">
+                <div class="glass-sidebar">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="d-flex justify-content-center align-content-center title" style="background-color: rgb(3, 145, 116); padding: 10px;"><h4 class="f-1 f-lg-6" style="font-size: 1rem;">Timeline Activity</h4></div>
+                            <div class="achievement-container">
+                                <div class=" " style="padding: 10px;">
+                                    <div class="row d-flex justify-content-center align-content-center achievement-fra">
+                                        <div class="card col-6 order-2 col-md-12 order-md-1" style="width: 18rem; margin: 10px;">
+                                            <div class="card-body achievement-list">
+                                                <h5 class="card-title">2 October</h5>
+                                                <h6 class="card-subtitle mb-2 text-body-secondary">Online Registration</h6>
+                                            </div>
+                                        </div>
+                                        <div class="card col-6 order-2 col-md-12 order-md-1" style="width: 18rem; margin: 10px;">
+                                            <div class="card-body achievement-list">
+                                                <h5 class="card-title">10 October</h5>
+                                                <h6 class="card-subtitle mb-2 text-body-secondary">Acceptance Announcement</h6>
+                                            </div>
+                                        </div>
+                                        <div class="card col-6 order-2 col-md-12 order-md-1" style="width: 18rem; margin: 10px;">
+                                            <div class="card-body achievement-list">
+                                                <h5 class="card-title">15 October</h5>
+                                                <h6 class="card-subtitle mb-2 text-body-secondary">Health and Physical Exams</h6>
+                                            </div>
+                                        </div>
+                                        <div class="card col-6 order-2 col-md-12 order-md-1" style="width: 18rem; margin: 10px;">
+                                            <div class="card-body achievement-list">
+                                                <h5 class="card-title">20 October</h5>
+                                                <h6 class="card-subtitle mb-2 text-body-secondary">Driving Ability Test</h6>
+                                            </div>
+                                        </div>
+                                        <div class="card col-6 order-2 col-md-12 order-md-1" style="width: 18rem; margin: 10px;">
+                                            <div class="card-body achievement-list">
+                                                <h5 class="card-title">30 October</h5>
+                                                <h6 class="card-subtitle mb-2 text-body-secondary">Announcement of Initial Selection Results</h6>
+                                            </div>
+                                        </div>
+                                        <div class="card col-6 order-2 col-md-12 order-md-1" style="width: 18rem; margin: 10px;">
+                                            <div class="card-body achievement-list">
+                                                <h5 class="card-title">10 November</h5>
+                                                <h6 class="card-subtitle mb-2 text-body-secondary">Sign a Contract with Merchedes</h6>
+                                            </div>
+                                        </div>
+                                        <div class="card col-6 order-2 col-md-12 order-md-1" style="width: 18rem; margin: 10px;">
+                                            <div class="card-body achievement-list">
+                                                <h5 class="card-title">25 November</h5>
+                                                <h6 class="card-subtitle mb-2 text-body-secondary">Racing License Exam</h6>
+                                            </div>
+                                        </div>
+                                        <div class="card col-6 order-2 col-md-12 order-md-1" style="width: 18rem; margin: 10px;">
+                                            <div class="card-body achievement-list">
+                                                <h5 class="card-title">20 December</h5>
+                                                <h6 class="card-subtitle mb-2 text-body-secondary">24 Hours of Le` Mans</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                </div>
+            </div>
+            <div class="col-12 order-4 footer">
+                <footer>
+                    <div class="footer-social" id="contact">
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Github</a></li>
+                            <li><a href="#">WhatsApp</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-copyright">
+                        <p>&copy;2024 Copyright-Design by <i>BAGAS</i>.</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        
+    </main>
+    
+</body>
+</html>
